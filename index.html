@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Essence - Luxury Perfumes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Discover the essence of luxury with L'Essence perfumes. Handcrafted scents for the discerning individual.">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">L'Essence</a>
+
+            <nav class="nav" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active-link">Home</a></li>
+                    <li class="nav-item"><a href="#collection" class="nav-link">Collection</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Our Story</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+            </nav>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="home" id="home">
+            <div class="home-container container grid">
+                <div class="home-data">
+                    <span class="home-subtitle">Exquisite Fragment</span>
+                    <h1 class="home-title">Discover Your <br> Signature Scent</h1>
+                    <p class="home-description">
+                        Timeless elegance bottled. Experience the artistry of fine perfumery with our exclusive
+                        collection.
+                    </p>
+                    <a href="#collection" class="button">Explore Collection</a>
+                </div>
+                <!-- Hero Image Placeholder - To be replaced with generated asset -->
+                <div class="home-img-wrapper">
+                    <div class="home-img-placeholder" id="hero-img-placeholder">
+                        <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1350&q=80"
+                            alt="Luxury Perfume Bottle">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Collection -->
+        <section class="section collection" id="collection">
+            <h2 class="section-title">The Collection</h2>
+            <span class="section-subtitle">Curated for you</span>
+
+            <div class="collection-container container grid">
+                <!-- Product 1 -->
+                <article class="card">
+                    <div class="card-img-wrapper" id="product-1-img">
+                        <img src="https://images.unsplash.com/photo-1592914610354-fd354ea45e48?auto=format&fit=crop&w=600&q=80"
+                            alt="Midnight Rose Perfume">
+                    </div>
+                    <div class="card-data">
+                        <h3 class="card-title">Midnight Rose</h3>
+                        <span class="card-price">$120</span>
+                        <p class="card-description">Notes of velvet rose, oud, and amber.</p>
+                        <a href="#" class="button button-small">Add to Cart</a>
+                    </div>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="card">
+                    <div class="card-img-wrapper" id="product-2-img">
+                        <img src="https://images.unsplash.com/photo-1594035910387-fea477942698?auto=format&fit=crop&w=600&q=80"
+                            alt="Ocean Mist Perfume">
+                    </div>
+                    <div class="card-data">
+                        <h3 class="card-title">Ocean Mist</h3>
+                        <span class="card-price">$95</span>
+                        <p class="card-description">Fresh sea salt, bergamot, and drift wood.</p>
+                        <a href="#" class="button button-small">Add to Cart</a>
+                    </div>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="card">
+                    <div class="card-img-wrapper" id="product-3-img">
+                        <img src="https://images.unsplash.com/photo-1523293188086-b15bc418b11b?auto=format&fit=crop&w=600&q=80"
+                            alt="Golden Amber Perfume">
+                    </div>
+                    <div class="card-data">
+                        <h3 class="card-title">Golden Amber</h3>
+                        <span class="card-price">$145</span>
+                        <p class="card-description">Warm amber, vanilla bean, and sandalwood.</p>
+                        <a href="#" class="button button-small">Add to Cart</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="about-container container grid">
+                <div class="about-data">
+                    <h2 class="section-title about-title">Our Story</h2>
+                    <p class="about-description">
+                        L'Essence was born from a passion for the evocative power of scent. We believe that perfume is
+                        an art form, a way to capture memories and emotions in a bottle. <br><br>
+                        Sourced from the finest ingredients around the world, our fragrances are crafted with patience
+                        and precision to ensure a lasting impression.
+                    </p>
+                    <a href="#contact" class="button button-link">Get in Touch</a>
+                </div>
+                <div class="about-img-wrapper" id="about-img">
+                    <img src="https://images.unsplash.com/photo-1616091216791-a5360b5fc78a?auto=format&fit=crop&w=800&q=80"
+                        alt="Perfume Ingredients">
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="section newsletter">
+            <div class="newsletter-container container">
+                <h2 class="section-title">Join Our World</h2>
+                <p class="newsletter-description">Subscribe to receive updates, access to exclusive deals, and more.</p>
+
+                <form action="" class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" class="newsletter-input">
+                    <button class="button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">L'Essence</a>
+                <p class="footer-description">Luxury in every drop.</p>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Explore</h3>
+                <ul class="footer-links">
+                    <li><a href="#home" class="footer-link">Home</a></li>
+                    <li><a href="#collection" class="footer-link">Collection</a></li>
+                    <li><a href="#about" class="footer-link">Our Story</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link">FAQs</a></li>
+                    <li><a href="#" class="footer-link">Shipping & Returns</a></li>
+                    <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Social</h3>
+                <ul class="footer-social">
+                    <a href="#" class="footer-social-link">Instagram</a>
+                    <a href="#" class="footer-social-link">Facebook</a>
+                    <a href="#" class="footer-social-link">Twitter</a>
+                </ul>
+            </div>
+        </div>
+        <span class="footer-copy">&#169; 2024 L'Essence. All rights reserved.</span>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
